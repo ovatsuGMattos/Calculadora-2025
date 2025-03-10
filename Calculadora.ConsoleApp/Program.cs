@@ -4,7 +4,7 @@ namespace Calculadora.ConsoleApp
 {
     internal class Program
     {
-        static bool Main(string[] args)
+        private static bool Main(string[] args)
         {
             Console.WriteLine("----------------------------");
             Console.WriteLine("Calculadora Tabajara 2025");
@@ -24,7 +24,7 @@ namespace Calculadora.ConsoleApp
 
             if (opcao == "S")
             {
-            return;
+                return;
             }
 
             Console.WriteLine("Digite o primeiro número: ");
@@ -38,11 +38,11 @@ namespace Calculadora.ConsoleApp
             int resultado = 0;
 
             //se/senao/ senao se
-            if (opcao == "1") ;
+            if (opcao == "1") 
             {
                  resultado = primeiroNumero + segundoNumero;
             }
-            elseif (opcao == "2");
+            else if (opcao == "2")
             {
                 resultado = primeiroNumero - segundoNumero;
             }
